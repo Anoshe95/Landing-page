@@ -2,6 +2,7 @@ import React from 'react';
 import './HeroSection.css';
 
 
+
 const HeroSection = () => {
   return (
     <section className="hero-section">
@@ -11,6 +12,8 @@ const HeroSection = () => {
         <div className="search-bar">
           <input type="text" placeholder="Where" />
           <input type="date" />
+         
+          
           <select>
             <option value="">Tour Type</option>
             <option value="adventure">Adventure</option>
